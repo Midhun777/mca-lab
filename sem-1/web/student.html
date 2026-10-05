@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
+
+    <table border="1" cellpadding="10" cellspacing="0" align="center" bgcolor="#ffffff" style="border-collapse: collapse; border-color: #cccccc; width: 600px;">
+        <thead>
+            <tr>
+                <th colspan="2" bgcolor="#007bff" style="color: white; font-size: 20px; padding: 15px;">
+                    Student Registration Form
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <form>
+                
+                <tr>
+                    <td colspan="2" bgcolor="#e9ecef"><b>1. Personal Information</b></td>
+                </tr>
+                <tr>
+                    <td width="40%"><label for="fullname">Full Name:</label></td>
+                    <td><input type="text" id="fullname" name="fullname" required style="width: 90%;"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" bgcolor="#e9ecef"><b>2. Contact & Account Details</b></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email ID:</label></td>
+                    <td><input type="email" id="email" name="email" required style="width: 90%;"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input type="tel" id="phone" name="phone" maxlength="10" required style="width: 90%;"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required style="width: 90%;"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" bgcolor="#e9ecef"><b>3. Address Details</b></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Present Address:</label></td>
+                    <td>
+                        <textarea id="address" name="address" rows="4" required style="width: 90%; resize: vertical;"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" bgcolor="#e9ecef"><b>4. Academic & Course Selection</b></td>
+                </tr>
+                <tr>
+                    <td><label for="qualification">Highest Qualification:</label></td>
+                    <td>
+                        <select id="qualification" name="qualification" required style="width: 93%;">
+                            <option value="">-- Select Qualification --</option>
+                            <option value="highschool">High School (10th)</option>
+                            <option value="intermediate">Higher Secondary (12th)</option>
+                            <option value="diploma">Diploma</option>
+                            <option value="ug">Under Graduate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Select Course:</label></td>
+                    <td>
+                        <select id="course" name="course" required style="width: 93%;">
+                            <option value="">-- Select a Course --</option>
+                            <option value="btech">B.Tech (Computer Science)</option>
+                            <option value="bca">BCA (Bachelor of Computer Applications)</option>
+                            <option value="bsc">B.Sc (Information Technology)</option>
+                            <option value="mca">MCA (Master of Computer Applications)</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" bgcolor="#e9ecef"><b>5. Document Attachments</b></td>
+                </tr>
+                <tr>
+                    <td><label for="tc_date">Date of Transfer:</label></td>
+                    <td><input type="date" id="tc_date" name="tc_date" required style="width: 90%;"></td>
+                </tr>
+                <tr>
+                    <td><label for="file_upload">Upload Photo / Documents:</label></td>
+                    <td><input type="file" id="file_upload" name="file_upload" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" style="padding: 15px;">
+                        <input type="submit" value="Submit Form" style="padding: 8px 20px; background-color: #28a745; color: white; border: none; cursor: pointer; font-weight: bold; margin-right: 10px;">
+                        <input type="reset" value="Reset Form" style="padding: 8px 20px; background-color: #dc3545; color: white; border: none; cursor: pointer; font-weight: bold;">
+                    </td>
+                </tr>
+                
+            </form>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
