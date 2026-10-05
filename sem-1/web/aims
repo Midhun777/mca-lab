@@ -3,3 +3,17 @@ using html iframe create a webpage with two frames , one frame contain list of i
 student reg form : to design and develop a student registrationi form using html that collects essential student details incluing personal information , contact details , address, academic qualification, course selection  , password entry , file upload and date of transfer certificate , the form should include appropritate input field , radio buttons , dropdown , list , text area , and action buttons for submitting and resetting the form
 
 student reg form : to design and develop a student registrationi form using html that collects essential student details incluing personal information , contact details , address, academic qualification, course selection  , password entry , file upload and date of transfer certificate , the form should include appropritate input field , radio buttons , dropdown , list , text area , and action buttons for submitting and resetting the form , very simple html code , simple design ,
+
+bio data suing internal stylesheet , to create a web page displaying a biodata
+
+create a simople academic webisre , Create different <p> defining different selectors in CSS.
+
+ 
+
+a) Each <p> should be defined with appropriate labels for making styles of each selector.
+
+ 
+
+b) Style each selector with unique font color and bg color.
+
+
