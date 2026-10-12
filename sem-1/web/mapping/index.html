@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Body Explorer</title>
+</head>
+
+<body style="text-align: center; background-color: lightblue;">
+
+    <h1>Human Body Explorer</h1>
+
+    <p>Click on an organ to learn more about it.</p>
+
+    <img src="https://c8.alamy.com/comp/3DR4664/human-body-anatomy-with-internal-organs-infographic-diagram-3DR4664.jpg"
+         alt="Human body showing internal organs"
+         usemap="#bodymap"
+         width="344">
+
+    
+    <map name="bodymap">
+    
+        <!-- Heart: Circle -->
+        <area shape="circle"
+              coords="185,280,20"
+              href="heart.html"
+              alt="Heart"
+              title="Heart">
+    
+        <!-- Liver: Rectangle -->
+        <area shape="rect"
+              coords="90,350,190,410"
+              href="liver.html"
+              alt="Liver"
+              title="Liver">
+    
+        <!-- Stomach: Polygon -->
+        <area shape="poly"
+              coords="185,360,220,370,240,395,230,425,205,435,185,410,175,385"
+              href="stomach.html"
+              alt="Stomach"
+              title="Stomach">
+    
+        <!-- Left kidney: Circle -->
+        <area shape="circle"
+              coords="165,430,16"
+              href="kidney.html"
+              alt="Kidney"
+              title="Kidney">
+    
+        <!-- Right kidney: Circle -->
+        <area shape="circle"
+              coords="205,430,16"
+              href="kidney.html"
+              alt="Kidney"
+              title="Kidney">
+    
+    </map>
+    <h3>Organs</h3>
+
+    <p>
+        <a href="heart.html">Heart</a> |
+        <a href="liver.html">Liver</a> |
+        <a href="stomach.html">Stomach</a> |
+        <a href="kidney.html">Kidneys</a>
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>striped table</title>
+<style>
+  #students {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+  }
+  
+  #students th, 
+  #students td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #students th {
+    background-color: #0056b3;
+    color: white;
+  } 
+  
+  #students tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+
+  #students tr:hover {
+    background-color: #ffffcc;
+  }
+</style>
+</head>
+<body>
+
+<table id="students">
+  <tr>
+    <th>Roll No</th>
+    <th>Name</th>
+    <th>Course</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>ANU</td>
+    <td>MCA</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>JAYA</td>
+    <td>MCA</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>RAHUL</td>
+    <td>MCA</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>PETER</td>
+    <td>MCA</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>SREYA</td>
+    <td>MCA</td>
+  </tr>
+</table> 
+
+</body> 
+</html>
